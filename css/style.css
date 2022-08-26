@@ -1,0 +1,72 @@
+.head-color {
+    background-color: #f7f8f8;
+}
+
+._21d60d2f {
+    width: 3.2rem;
+    height: 1rem;
+    fill: #3a77ff;
+}
+
+.btn-img {
+    top: .8rem;
+    left: 2rem;
+}
+
+.head-input {
+    border-width: 2px;
+    border-color: black !important;
+    height: 8vh;
+
+}
+
+.card-end {
+    font-size: 12px;
+}
+
+.banner-app {
+    background: rgba(0, 47, 52, .03);
+}
+
+.olx-footer {
+    background-color: #ebeeef;
+}
+
+.footer-copy {
+    background-color: #002f34;
+}
+
+.head-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .head-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .head-color,
+    .olx-cat,
+    .carousel {
+        display: none;
+    }
+
+    .head-mobile {
+        display: block;
+    }
+}
+
+.mobile-search {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.mobile-input:focus {
+    box-shadow: none;
+    outline: none;
+}
